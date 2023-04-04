@@ -1,0 +1,66 @@
+@import "src/app/shared/styles/fonts";
+@import "src/app/shared/styles/colors";
+.container{
+  font-family: InterRegular;
+  margin: 0 auto;
+  max-width: 1296px;
+  width: 100%;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.search_block{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 84px;
+  margin: 24px 0 0 0;
+}
+.search_block_page_name{
+  align-self: center;
+  font-family: InterBold;
+  font-size: 30px;
+  height: 36px;
+  width: 21.91%;
+  color: $cobalt-blue;
+}
+.search_block_categories_list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  height: 36px;
+  margin-left: 1.5%;
+  color: $light-blue;
+  background-color:$white;
+  border: 1px solid $light-blue ;
+  border-radius: 4px;
+  gap: 10px;
+}
+.search_block_form{
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  margin-left: 0.771%;
+  width: 65.58%;
+}
+.search_block_form_input{
+  border: 1px solid $light-gray;
+  height: 36px;
+  width: 90%;
+  border-radius: 4px 0 0 4px;
+}
+.search_block_form_button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: 10%;
+  color: $white;
+  background-color:$light-blue;
+  gap: 8px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}

@@ -1,14 +1,18 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { AdvComponent } from "../app/pages/adv/adv.component";
-import { CatalogComponent } from "../app/pages/catalog/catalog.component";
-import { ContactComponent } from "../app/pages/contact/contact.component";
+import {SettingsComponent} from "./pages/settings/settings.component";
+import {CreateAdvComponent} from "./pages/create-adv/create-adv.component";
+import {MyAdvsComponent} from "./pages/my-advs/my-advs.component";
+import {RecAdsComponent} from "./pages/rec-ads/rec-ads.component";
+
+
 
 
 const routes: Routes = [
-  {path: 'adv', component: AdvComponent},
-  {path: 'catalog', component: CatalogComponent},
-  {path: 'contact', component: ContactComponent},
+  {path: 'settings', component:SettingsComponent},
+  {path: 'create-adv', component:CreateAdvComponent},
+  {path: 'my-advs', component:MyAdvsComponent},
+  {path: 'rec-ads', component:RecAdsComponent}
 ]
 
 
