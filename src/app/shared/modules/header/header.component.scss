@@ -1,0 +1,57 @@
+@import "src/assets/fonts";
+@import "src/app/shared/styles/colors";
+body{
+  margin: 0 auto;
+}
+.container{
+  font-family: InterRegular;
+  margin: 0 auto;
+  max-width: 1296px;
+  width: 100%;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  height: 52px;
+  background-color:$cobalt-blue;
+}
+.header_block{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.header_user_login{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: $white;
+  padding-right: 24px;
+  gap: 10.5px;
+}
+.header_add_adv_img{
+  padding-right: 10.5px;
+}
+.header_add_adv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  width: 179px;
+  height: 32px;
+  font-size: 14px;
+  color: $white;
+  gap: 4px;
+  border-radius:4px ;
+  background-color: $light-blue;
+}
+.header_add_adv_text{
+  padding-left: 12px;
+}
+.header_add_adv_img{
+  padding-left: 9px;
+}
