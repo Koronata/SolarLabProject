@@ -1,7 +1,11 @@
-@import "src/assets/fonts";
+@import "src/app/shared/styles/fonts";
 @import "src/app/shared/styles/colors";
+body{
+  margin: 0;
+  padding: 0;
+}
 .container{
-  font-family: InterRegular;
+  font-family: $inter_regular;
   margin: 0 auto;
   max-width: 1296px;
   width: 100%;
@@ -20,7 +24,7 @@ main{
 }
 .search_block_page_name{
   align-self: center;
-  font-family: InterBold;
+  font-family: $inter_bold;
   font-size: 30px;
   height: 36px;
   width: 21.91%;

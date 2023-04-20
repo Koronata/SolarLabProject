@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GalleryComponent } from './gallery.component';
+import {CardModule} from "../card/card.module";
 
 
 
@@ -9,7 +10,11 @@ import { GalleryComponent } from './gallery.component';
     GalleryComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CardModule
+  ],
+  exports:[
+    GalleryComponent
   ]
 })
 export class GalleryModule { }

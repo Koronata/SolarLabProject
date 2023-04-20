@@ -1,10 +1,11 @@
-@import "src/assets/fonts";
+@import "src/app/shared/styles/fonts";
 @import "src/app/shared/styles/colors";
 body{
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 .container{
-  font-family: InterRegular;
+  font-family: $inter_regular;
   margin: 0 auto;
   max-width: 1296px;
   width: 100%;
@@ -23,6 +24,7 @@ header{
   align-items: center;
   height: 100%;
   width: 100%;
+
 }
 
 .header_user_login{

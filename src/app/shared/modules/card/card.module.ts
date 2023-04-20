@@ -9,7 +9,10 @@ import { CardComponent } from './card.component';
     CardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+  ],
+  exports:[
+    CardComponent
   ]
 })
 export class CardModule { }
