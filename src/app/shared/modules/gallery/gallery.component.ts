@@ -17,5 +17,4 @@ export class GalleryComponent implements OnInit{
     this.advService.getAdvList().subscribe((data: Advertisement[]) => this.advList = data);
   }
 
-
 }

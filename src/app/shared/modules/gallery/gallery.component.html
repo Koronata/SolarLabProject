@@ -1,2 +1,11 @@
-<container></container>
-<p *ngFor="let advertisement of advList"></p>
+<div class="container">
+  <div class="adv_block" *ngFor="let advertisement of advList">
+    <div class="adv">
+      <img class="adv_img" src="{{advertisement.imageURL}}" alt="Картинка">
+      <p class="adv_name">{{advertisement.name}}</p>
+      <p class="adv_price">{{advertisement.price}}</p>
+      <p class="adv_address">{{advertisement.address}}</p>
+      <p class="adv_create_time">{{advertisement.createdAt}}</p>
+    </div>
+  </div>
+</div>

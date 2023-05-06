@@ -1,0 +1,14 @@
+@import "src/app/shared/styles/fonts";
+@import "src/app/shared/styles/colors";
+.container{
+  font-family: $inter_regular;
+  margin: 0 auto;
+  max-width: 1296px;
+  width: 100%;
+}
+.adv_block_name{
+  color: $cobalt-blue;
+  font-family: $inter_bold;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
