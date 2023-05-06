@@ -1,1 +1,9 @@
 @import "src/app/shared/styles/fonts";
+@import "src/app/shared/styles/colors";
+
+.container{
+  font-family: $inter_regular;
+  margin: 0 auto;
+  max-width: 1296px;
+  width: 100%;
+}

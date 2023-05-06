@@ -1,19 +1,13 @@
 @import "src/app/shared/styles/fonts";
 @import "src/app/shared/styles/colors";
-body{
-  margin: 0;
-  padding: 0;
-}
+
 .container{
   font-family: $inter_regular;
   margin: 0 auto;
   max-width: 1296px;
   width: 100%;
 }
-main{
-  display: flex;
-  flex-direction: column;
-}
+
 .search_block{
   display: flex;
   flex-direction: row;
@@ -48,6 +42,7 @@ main{
   align-items: center;
   justify-self: flex-end;
   margin-left: 0.771%;
+  height: 36px;
   width: 65.58%;
 }
 .search_block_form_input{
@@ -60,7 +55,7 @@ main{
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 40px;
+  height: 36px;
   width: 10%;
   color: $white;
   background-color:$light-blue;
