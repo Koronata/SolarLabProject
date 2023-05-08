@@ -1,9 +1,9 @@
-export class Category{
+export class CategoryDto {
   constructor(
     public id: string,
-    public parentID: string|null,
     public name: string,
     public isActive: boolean,
-  )
-  {}
+    public createdAt: Date,
+  ) {
+  }
 }
