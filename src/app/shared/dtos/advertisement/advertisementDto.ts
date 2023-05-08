@@ -1,6 +1,5 @@
-import {Category} from "./category";
 
-export class Advertisement {
+export class AdvertisementDto{
   constructor(
     public id: string,
     public name: string,
@@ -9,7 +8,7 @@ export class Advertisement {
     public imageURL: string,
     public address: string,
     public createdAt: Date,
-    public category:Category,
+    public categoryId:string,
     public isActive: boolean) {
   }
 }
